@@ -7,6 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* About secion */
+.container_about {
+	display: flex;
+}
+.about_me_paragraph {
+	margin: auto 15px auto 15px;
+
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1772,8 +1781,9 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+			width: 85em;
+			/* margin: 0 0 2em 0; */
+			box-shadow: 5px 5px 5px gray
 		}
 
 		.image.left {
@@ -2257,6 +2267,7 @@ input, select, textarea {
 
 			#main > section.three {
 				background-color: #ecf1f1;
+
 			}
 
 			#main > section.four {
@@ -2321,6 +2332,10 @@ input, select, textarea {
 
 			.container {
 				padding: 0 2em 0 2em;
+			}
+			.container_about {
+				padding: 0 2em 0 2em;
+
 			}
 
 		/* Icons */
